@@ -15,3 +15,6 @@ hexagonal/
 ├── main.go
 │
 └── go.mod
+
+CodeBangkok Youtube
+https://www.youtube.com/watch?v=k3JZI-sQs2k
