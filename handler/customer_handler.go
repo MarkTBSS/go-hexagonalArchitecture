@@ -11,10 +11,10 @@ import (
 )
 
 type customerHandler struct {
-	customerService service.CustomService
+	customerService service.ICustomService
 }
 
-func NewCustomerHandler(customerService service.CustomService) *customerHandler {
+func NewCustomerHandler(customerService service.ICustomService) *customerHandler {
 	return &customerHandler{
 		customerService: customerService,
 	}

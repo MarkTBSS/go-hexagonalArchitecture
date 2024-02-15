@@ -9,7 +9,7 @@ type Customer struct {
 	Status      int    `db:"status"`
 }
 
-type CustomRepository interface {
+type ICustomRepository interface {
 	GetAll() ([]Customer, error)
 	GetById(int) (*Customer, error)
 }

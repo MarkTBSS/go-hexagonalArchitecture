@@ -7,7 +7,7 @@ type CustomerResponse struct {
 	Status     int    `json:"status"`
 }
 
-type CustomService interface {
+type ICustomService interface {
 	GetCustomers() ([]CustomerResponse, error)
 	GetCustomer(id int) (*CustomerResponse, error)
 }
